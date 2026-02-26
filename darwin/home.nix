@@ -67,7 +67,10 @@
   programs.zed-editor = {
     enable = true;
     # https://github.com/zed-industries/extensions/tree/main/extensions
-    extensions = [ "github-theme" ];
+    extensions = [
+      "github-theme"
+      "nix"
+    ];
     userSettings = {
       ui_font_size = 12.0;
       buffer_font_size = 12.0;
